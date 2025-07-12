@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3,
+    "description": "Ropa",
+    "amount": 200,
+    "date": "2025-07-12"
+  },
+  {
+    "id": 4,
+    "description": "Ropa",
+    "amount": 400,
+    "date": "2025-07-12"
+  },
+  {
+    "id": 5,
+    "description": "Ropa",
+    "amount": 400,
+    "date": "2025-08-12"
+  },
+  {
+    "id": 6,
+    "description": "Ropa",
+    "amount": 400,
+    "date": "2025-08-12"
+  },
+  {
+    "id": 7,
+    "description": "Ropa",
+    "amount": 400,
+    "date": "2025-07-12"
+  },
+  {
+    "id": 8,
+    "description": "Ropa",
+    "amount": 442,
+    "date": "2025-07-12"
+  },
+  {
+    "id": 9,
+    "description": "Ropa",
+    "amount": 442,
+    "date": "2025-07-12"
+  }
+]
