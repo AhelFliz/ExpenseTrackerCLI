@@ -1,4 +1,4 @@
-Expense Tracker
+ Expense Tracker
 Build a simple expense tracker to manage your finances.
 
 Build a simple expense tracker application to manage your finances. The application should allow users to add, delete, and view their expenses. The application should also provide a summary of the expenses.
@@ -50,3 +50,5 @@ Use a simple text file to store the expenses data. You can use JSON, CSV, or any
 Add error handling to handle invalid inputs and edge cases (e.g. negative amounts, non-existent expense IDs, etc).
 Use functions to modularize the code and make it easier to test and maintain.
 This project idea is a great way to practice your logic building skills and learn how to interact with the filesystem using a CLI application. It will also help you understand how to manage data and provide useful information to users in a structured way.
+
+https://roadmap.sh/projects/expense-tracker
