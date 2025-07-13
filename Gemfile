@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "thor"
-gem "json"
+source 'https://rubygems.org'
+
+gem 'json'
+gem 'thor'
