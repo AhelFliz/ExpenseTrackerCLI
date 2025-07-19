@@ -48,7 +48,7 @@ class ExpenseTracker < Thor
       puts month ? "No expenses found for month #{month}." : 'No expenses found.'
     else
       filtered.each { |e| total_amount += e['amount'] }
-      puts "💰 Total expenses#{month ? " for month #{month}" : ''}: $#{'%.2f' % total_amount}"
+      puts "💰 Total expenses#{" for month #{month}" if month}: $#{'%.2f' % total_amount}"
     end
   end
 
@@ -60,7 +60,7 @@ class ExpenseTracker < Thor
     array_size = expenses.count
     expenses.delete_if { |expense| expense['id'] == id }
     save_expenses
-    expenses.size < array_size ? puts('deleted correctly') : puts('error deleting')
+    (expenses.size < array_size) ? puts('deleted correctly') : puts('error deleting')
   end
 
   private
